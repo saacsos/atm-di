@@ -6,14 +6,14 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class DataSource implements IDataSource {
+public class CSVDataSource implements IDataSource {
 
     private String filename;
 
     /**
      * @param filename the name of the customer file
      */
-    public DataSource(String filename) {
+    public CSVDataSource(String filename) {
         this.filename = filename;
     }
 
