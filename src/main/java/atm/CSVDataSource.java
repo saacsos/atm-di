@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class DataSource {
+public class DataSource implements IDataSource {
 
     private String filename;
 
