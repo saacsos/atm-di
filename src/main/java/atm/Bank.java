@@ -10,12 +10,12 @@ import java.util.Map;
 public class Bank {
 
    private Map<Integer,Customer> customers;
-   private DataSource dataSource;
+   private IDataSource dataSource;
 
    /**
     * Constructs a bank with no customers.
     */
-   public Bank(DataSource dataSource) {
+   public Bank(IDataSource dataSource) {
       this.dataSource = dataSource;
       customers = new HashMap<Integer,Customer>();
    }
